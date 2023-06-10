@@ -1,4 +1,4 @@
-import time
+#!/usr/bin/python
 
 import i3ipc
 import argparse
@@ -19,7 +19,7 @@ def check_overlap(r1, r2):
 
 def main():
     parser = argparse.ArgumentParser(
-        prog='swaypresent',
+        prog='swaypresent.py',
         description='Launch wl-mirror on a new workspace in fullscreen')
     parser.add_argument('-s', '--source', help='The output to mirror (default: first)')
     parser.add_argument('-d', '--destination', help='The output where the mirror is displayed (default: second)')
